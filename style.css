@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 66rem;
+    justify-content: space-between;
+    background-color: bisque;
+}
+
+#header{
+    background-color: aqua;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#main{
+    background-color:pink;
+    display: flex;
+    /* flex-direction: column; */
+    width: 100%;
+    justify-content: center;
+}
+
+.bottom-footer{
+    background-color: aquamarine;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+
+.header-left{
+    background-color: yellow;
+    margin: 1rem;
+}
+.about{
+    margin-right: 1rem;
+}
+
+.header-right{
+    background-color: yellow;
+    margin: 1rem;
+    display: flex;
+}
+.sign-in, .images, .gmail{
+    padding: 0.5rem;
+    margin-left: 1rem;
+}
+
